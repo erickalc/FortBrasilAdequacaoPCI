@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="824e7403-7526-40e6-86c8-3b75e1e46fe5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FortBrasilAdequacaoPCI/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FortBrasilAdequacaoPCI/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FortBrasilAdequacaoPCI/ConsultaComprasAntecipaceisTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FortBrasilAdequacaoPCI/SimulaComprasAntecipaveisTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/FortBrasilAdequacaoPCI/ConsultaComprasAntecipaceisTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/FortBrasilAdequacaoPCI/ConsultaComprasAntecipaceisTeste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/massaDeTestes/parametrosConsultaBadRequest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/massaDeTestes/parametrosConsultaBadRequest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FortBrasilAdequacaoPCI/ConsultaComprasAntecipaceisTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FortBrasilAdequacaoPCI/ConsultaComprasAntecipaceisTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/massaDeTestes/parametrosConsultaBadRequest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/massaDeTestes/parametrosConsultaBadRequest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/massaDeTestes/parametrosConsultaSucesso.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/massaDeTestes/parametrosConsultaSucesso.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,8 +42,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FortBrasilAdequacaoPCI/ConsultaComprasAntecipaceisTeste.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="83" column="50" lean-forward="true" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+            <state relative-caret-position="502">
+              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FortBrasilAdequacaoPCI/SimulaComprasAntecipaveisTeste.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,6 +64,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,62 +81,22 @@
         <option value="$PROJECT_DIR$/src/test/java/FortBrasilAdequacaoPCI/AppTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/FortBrasilAdequacaoPCI/SimulaComprasAntecipaveisTeste.java" />
         <option value="$PROJECT_DIR$/src/test/java/FortBrasilAdequacaoPCI/ConsultaComprasAntecipaceisTeste.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/FortBrasilAdequacaoPCI.iml" />
-        <option value="$PROJECT_DIR$/.idea/modules/FortBrasilAdequacaoPCI.test.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/gradle.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules/FortBrasilAdequacaoPCI.main.iml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_7_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_7_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_xml_bind_jaxb_impl_2_3_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_rest_assured_json_path_4_4_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_rest_assured_rest_assured_4_4_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_rest_assured_rest_assured_common_4_4_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_rest_assured_xml_path_4_4_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_1_2_2.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_11.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_13.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5_13.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_3_0_8.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_json_3_0_8.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_xml_3_0_8.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_2_1.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2564" />
-    <option name="y" value="140" />
-    <option name="width" value="433" />
-    <option name="height" value="463" />
+    <option name="x" value="2764" />
+    <option name="y" value="90" />
+    <option name="width" value="289" />
+    <option name="height" value="309" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,22 +137,16 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FortBrasilAdequacaoPCI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FortBrasilAdequacaoPCI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="massaDeTestes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -185,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConsultaComprasAntecipaceisTeste">
+  <component name="RunManager" selected="JUnit.ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisSucesso">
     <configuration name="ConsultaComprasAntecipaceisTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FortBrasilAdequacaoPCI.test" />
       <extension name="coverage">
@@ -197,22 +173,6 @@
       <option name="PACKAGE_NAME" value="FortBrasilAdequacaoPCI" />
       <option name="MAIN_CLASS_NAME" value="FortBrasilAdequacaoPCI.ConsultaComprasAntecipaceisTeste" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceis (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FortBrasilAdequacaoPCI.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FortBrasilAdequacaoPCI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="FortBrasilAdequacaoPCI" />
-      <option name="MAIN_CLASS_NAME" value="FortBrasilAdequacaoPCI.ConsultaComprasAntecipaceisTeste" />
-      <option name="METHOD_NAME" value="testeListaComprasAntecipaceis(int,int,int)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -249,6 +209,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FortBrasilAdequacaoPCI.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FortBrasilAdequacaoPCI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FortBrasilAdequacaoPCI" />
+      <option name="MAIN_CLASS_NAME" value="FortBrasilAdequacaoPCI.ConsultaComprasAntecipaceisTeste" />
+      <option name="METHOD_NAME" value="testeListaComprasAntecipaceisNotFound(java.lang.String,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FortBrasilAdequacaoPCI.test" />
       <extension name="coverage">
@@ -267,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisSucesso" />
+        <item itemvalue="JUnit.ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisNotFound" />
         <item itemvalue="JUnit.ConsultaComprasAntecipaceisTeste" />
         <item itemvalue="JUnit.ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisBadRequest" />
-        <item itemvalue="JUnit.ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisSucesso" />
         <item itemvalue="JUnit.ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceis (3)" />
-        <item itemvalue="JUnit.ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceis (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -289,41 +265,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConsultaComprasAntecipaceisTeste - 2021.09.09 at 13h 47m 43s.xml">
+    <history-entry file="ConsultaComprasAntecipaceisTeste - 2021.09.10 at 10h 10m 40s.xml">
       <configuration name="ConsultaComprasAntecipaceisTeste" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsultaComprasAntecipaceisTeste_testeListaComprasAntecipaceisSucesso - 2021.09.09 at 13h 53m 21s.xml">
-      <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisSucesso" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsultaComprasAntecipaceisTeste - 2021.09.09 at 14h 01m 02s.xml">
+    <history-entry file="ConsultaComprasAntecipaceisTeste - 2021.09.10 at 10h 13m 56s.xml">
       <configuration name="ConsultaComprasAntecipaceisTeste" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsultaComprasAntecipaceisTeste - 2021.09.09 at 14h 29m 13s.xml">
-      <configuration name="ConsultaComprasAntecipaceisTeste" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsultaComprasAntecipaceisTeste - 2021.09.09 at 15h 30m 45s.xml">
-      <configuration name="ConsultaComprasAntecipaceisTeste" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsultaComprasAntecipaceisTeste - 2021.09.09 at 15h 31m 15s.xml">
-      <configuration name="ConsultaComprasAntecipaceisTeste" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsultaComprasAntecipaceisTeste_testeListaComprasAntecipaceisSucesso - 2021.09.09 at 15h 32m 52s.xml">
-      <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisSucesso" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsultaComprasAntecipaceisTeste_testeListaComprasAntecipaceisSucesso - 2021.09.09 at 15h 51m 17s.xml">
-      <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisSucesso" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConsultaComprasAntecipaceisTeste_testeListaComprasAntecipaceisBadRequest - 2021.09.09 at 15h 54m 56s.xml">
+    <history-entry file="ConsultaComprasAntecipaceisTeste_testeListaComprasAntecipaceisBadRequest - 2021.09.10 at 10h 15m 10s.xml">
       <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisBadRequest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsultaComprasAntecipaceisTeste - 2021.09.09 at 15h 57m 33s.xml">
+    <history-entry file="ConsultaComprasAntecipaceisTeste - 2021.09.10 at 10h 17m 52s.xml">
       <configuration name="ConsultaComprasAntecipaceisTeste" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsultaComprasAntecipaceisTeste_testeListaComprasAntecipaceisSucesso - 2021.09.10 at 13h 58m 09s.xml">
+      <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisSucesso" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsultaComprasAntecipaceisTeste_testeListaComprasAntecipaceisSucesso - 2021.09.10 at 14h 02m 54s.xml">
+      <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisSucesso" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsultaComprasAntecipaceisTeste_testeListaComprasAntecipaceisSucesso - 2021.09.10 at 14h 04m 44s.xml">
+      <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisSucesso" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsultaComprasAntecipaceisTeste_testeListaComprasAntecipaceisNotFound - 2021.09.10 at 14h 11m 13s.xml">
+      <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisNotFound" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsultaComprasAntecipaceisTeste_testeListaComprasAntecipaceisSucesso - 2021.09.10 at 14h 12m 45s.xml">
+      <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisSucesso" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsultaComprasAntecipaceisTeste_testeListaComprasAntecipaceisSucesso - 2021.09.10 at 14h 14m 50s.xml">
+      <configuration name="ConsultaComprasAntecipaceisTeste.testeListaComprasAntecipaceisSucesso" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -332,7 +309,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6013001" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5146262" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -354,13 +331,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -368,10 +338,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FortBrasilAdequacaoPCI/SimulaComprasAntecipaveisTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FortBrasilAdequacaoPCI/ConsultaComprasAntecipaceisTeste.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="83" column="50" lean-forward="true" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+        <state relative-caret-position="502">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
